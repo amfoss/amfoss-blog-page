@@ -3,6 +3,7 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
+
 title: 'amFOSS'
 subtitle: ''
 description: ''
@@ -14,6 +15,7 @@ timezone: ''
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
 url: http://amfoss.in
+root: /amfoss-blog-page/
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
