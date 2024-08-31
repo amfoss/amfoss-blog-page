@@ -105,5 +105,5 @@ theme: landscape
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: git
-  repo: https://github.com/hkx05/hkx05.github.io
-  branch: master
+  repo: https://github.com/wreck-x/amfoss-blog-page
+  branch: gh-page
