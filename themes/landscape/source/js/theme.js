@@ -3,7 +3,7 @@ function toggleTheme() {
   const currentIcon = document.getElementById("theme-icon").innerHTML;
   const currentLogo = document.getElementById("logo-image").src;
   const newIcon = currentIcon === 'sunny' ? 'bedtime' : 'sunny';
-  const newLogo = currentTheme === 'light' ? '/image/logo-dark.png' : '/image/logo-light.png';
+  const newLogo = currentTheme === 'light' ? 'image/logo-dark.png' : 'image/logo-light.png';
   const newTheme = currentTheme === 'light' ? 'dark' : 'light';
 
   document.body.classList.remove(currentTheme + '-mode');
