@@ -14,8 +14,8 @@ timezone: ''
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: http://amfoss.in
-root: /amfoss-blog-page/
+url: https://amfoss.github.io/amfoss-blog-page/
+root: 
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
@@ -107,5 +107,5 @@ theme: landscape
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: git
-  repo: https://github.com/wreck-x/amfoss-blog-page
+  repo: https://github.com/amfoss/amfoss-blog-page
   branch: gh-page
